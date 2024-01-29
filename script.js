@@ -27,3 +27,18 @@ btn1.addEventListener('click', function buttn1(){
 
 
 })
+var btn=document.querySelector('.lo')
+ console.log(btn)
+
+
+btn.addEventListener('click',function changecolor(){
+    console.log(document.body.style.backgroundColor)
+
+    if(document.body.style.backgroundColor == "red"){
+        document.body.style.backgroundColor ="white"
+    }
+    
+    else{
+        document.body.style.backgroundColor = "red"
+    }
+})
